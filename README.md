@@ -25,7 +25,7 @@ Update the appsettings.json file with your SQL Server connection details:
   },
 
   Create and apply the initial database migration:
-    add-migration Initial
+    add-migration Initial then
     update-database
 
   Run the application:
